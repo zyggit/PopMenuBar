@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PopMenuBar_Example' do
+  pod 'PopMenuBar', :path => '../'
+
+  target 'PopMenuBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
