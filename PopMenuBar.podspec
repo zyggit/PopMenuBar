@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = "test fro description add lib"
 
-  s.homepage         = 'https://github.com/zygmain@gmail.com/PopMenuBar'
+  s.homepage         = 'https://github.com/zyggit/PopMenuBar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zygmain@gmail.com' => '935517644@qq.com' }
-  s.source           = { :git => 'https://github.com/zygmain@gmail.com/PopMenuBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zyggit/PopMenuBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
