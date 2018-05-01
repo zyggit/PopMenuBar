@@ -1,0 +1,6 @@
+framework module Pods_PopMenuBar_Example {
+  umbrella header "Pods-PopMenuBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

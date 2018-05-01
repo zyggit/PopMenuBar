@@ -1,0 +1,6 @@
+framework module PopMenuBar {
+  umbrella header "PopMenuBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

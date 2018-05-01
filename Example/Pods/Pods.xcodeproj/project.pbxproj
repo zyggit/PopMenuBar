@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E0FD64BC6B74C4B1583D380BE1391C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2FB9417CAA6EFC6B723DEC3D61B16D9E /* PopMenuBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD243D9049B30BF11BD5BA102ADE0F5 /* PopMenuBar-dummy.m */; };
+		3B1A10D678EBE51950A570428A70FA1B /* Pods-PopMenuBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C43502A73952FE6DC0D00F24520DC6BA /* Pods-PopMenuBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F5A67C62B90F31BF22B7D9CA41D561F /* PopMenuBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA95A321E12AE16B43864B5E05A097F1 /* PopMenuBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ECBB8C480A116E83E74FFCDB5813059 /* ZHNDoodleMenuBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 713AD6CFA0ECE67FD26A3F33069F861C /* ZHNDoodleMenuBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631E0AF2F506C69757302238512CFBED /* UIView+ZHNDoodleMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E163DA0BA091EACE99940437267D5826 /* UIView+ZHNDoodleMenuBar.m */; };
+		63A0E69E321CFD2D99FC64C4EF4BEDB3 /* ZHNShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD487101293F99F45496372F5FE10A /* ZHNShineButton.m */; };
+		6B1F4252A48D72048B8B796F1B9AADD2 /* Pods-PopMenuBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F7AC0C5D27948F04FEFA1B64A263E5 /* Pods-PopMenuBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8669A1B87A25B76981158AB83EFDF7F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A027F3707AEEE856E3E7D35C5E650FC4 /* Pods-PopMenuBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E0B1F9B6A39DF3BE57D928ECBE176D /* Pods-PopMenuBar_Tests-dummy.m */; };
+		A994767C01988B075E5AE98E062FFD87 /* ZHNShineButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A64FA8998B61882528F7BD3C2C476754 /* ZHNShineButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B828EA8C548F624F3EF9849533CFAB16 /* Pods-PopMenuBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8829F4C6E56C7680F77CBCCD32D5F6E /* Pods-PopMenuBar_Example-dummy.m */; };
+		BE83A7F86011CEDB37D2226B90038103 /* UIView+ZHNDoodleMenuBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 300DAD38E059649BE2BAC3A0F20690CD /* UIView+ZHNDoodleMenuBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2409D85B56FE9D3BB647F5EE847C80D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F50A62210D53001C87D53147BD8B7266 /* ZHNDoodleMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 234CEAA5FCE9009BD9EFC7D51222670A /* ZHNDoodleMenuBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A077B8C9804B337433E7D86F88B960C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84C9D8CB9128D6C585A2AA45600C4A1;
+			remoteInfo = PopMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234CEAA5FCE9009BD9EFC7D51222670A /* ZHNDoodleMenuBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHNDoodleMenuBar.m; path = PopMenuBar/Classes/ZHNDoodleMenuBar.m; sourceTree = "<group>"; };
+		25FD487101293F99F45496372F5FE10A /* ZHNShineButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHNShineButton.m; path = PopMenuBar/Classes/ZHNShineButton.m; sourceTree = "<group>"; };
+		27C829F6DCD2D2AE52B9EB6A9114B972 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28080DFCD7E21AF955ACB0F4F36F9CF1 /* Pods_PopMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopMenuBar_Tests.framework; path = "Pods-PopMenuBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2995FFEEDF1869504B5CE9054F4BBAA6 /* Pods-PopMenuBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopMenuBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		300DAD38E059649BE2BAC3A0F20690CD /* UIView+ZHNDoodleMenuBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZHNDoodleMenuBar.h"; path = "PopMenuBar/Classes/UIView+ZHNDoodleMenuBar.h"; sourceTree = "<group>"; };
+		3D46B6BFC51511F1C26F19C4B0F82C8D /* Pods-PopMenuBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopMenuBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64E0B1F9B6A39DF3BE57D928ECBE176D /* Pods-PopMenuBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopMenuBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EB2DE0622758DFE4A99130EED5F4DB8 /* Pods-PopMenuBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopMenuBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		713AD6CFA0ECE67FD26A3F33069F861C /* ZHNDoodleMenuBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHNDoodleMenuBar.h; path = PopMenuBar/Classes/ZHNDoodleMenuBar.h; sourceTree = "<group>"; };
+		71F7AC0C5D27948F04FEFA1B64A263E5 /* Pods-PopMenuBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopMenuBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		858CDFE803CF8E565E07E6C40B75F52A /* Pods-PopMenuBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopMenuBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FBC31E89579B98224C3FD13757EBC6 /* Pods-PopMenuBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopMenuBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EE5A6441331587BEA490F47F6C78EB1 /* Pods-PopMenuBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopMenuBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		A2D8656F14C0C9BBA2D46265F32E95B4 /* Pods-PopMenuBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopMenuBar_Example.modulemap"; sourceTree = "<group>"; };
+		A516263DFE654C5DC27CD565E561563A /* Pods-PopMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A53741319A27D5E629F9C93BBCC4FBC3 /* PopMenuBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopMenuBar-prefix.pch"; sourceTree = "<group>"; };
+		A64FA8998B61882528F7BD3C2C476754 /* ZHNShineButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHNShineButton.h; path = PopMenuBar/Classes/ZHNShineButton.h; sourceTree = "<group>"; };
+		A860D82FFA92F0575A0E51BCF61ED98E /* Pods-PopMenuBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopMenuBar_Example-resources.sh"; sourceTree = "<group>"; };
+		A8829F4C6E56C7680F77CBCCD32D5F6E /* Pods-PopMenuBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopMenuBar_Example-dummy.m"; sourceTree = "<group>"; };
+		AF2A073AB951145CD5B690D0E1058F49 /* PopMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopMenuBar.framework; path = PopMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A14F4622AF58E9DFB5A52F4DFC68CD /* Pods-PopMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D82220437833840DEF4BEE9E873E89 /* Pods-PopMenuBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopMenuBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE00CFB65EC730364C755D37B8EB5FA6 /* Pods-PopMenuBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopMenuBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0D5163DA41FC228A865A459D3C9DD98 /* Pods-PopMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C43502A73952FE6DC0D00F24520DC6BA /* Pods-PopMenuBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopMenuBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C5B1C54C4DF40989491364A552D5C278 /* PopMenuBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopMenuBar.xcconfig; sourceTree = "<group>"; };
+		CA435E85BB399E1CB1F607CD01F5F72B /* Pods_PopMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopMenuBar_Example.framework; path = "Pods-PopMenuBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA95A321E12AE16B43864B5E05A097F1 /* PopMenuBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopMenuBar-umbrella.h"; sourceTree = "<group>"; };
+		D0040CCA60372C9CF468F84FA262BFF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBB7E53F1C5862F99D76CE1B8977400 /* Pods-PopMenuBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopMenuBar_Tests.modulemap"; sourceTree = "<group>"; };
+		DE391D91E84A546610573FADD8247BC6 /* PopMenuBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopMenuBar.modulemap; sourceTree = "<group>"; };
+		E163DA0BA091EACE99940437267D5826 /* UIView+ZHNDoodleMenuBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZHNDoodleMenuBar.m"; path = "PopMenuBar/Classes/UIView+ZHNDoodleMenuBar.m"; sourceTree = "<group>"; };
+		E92CB212FC57D00820C96AA52EF5BDEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD243D9049B30BF11BD5BA102ADE0F5 /* PopMenuBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopMenuBar-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD003079962CA6005EF1644405F273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8669A1B87A25B76981158AB83EFDF7F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DA999B2846B24B312714BFDBADCC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2409D85B56FE9D3BB647F5EE847C80D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929DCFD9BE1169A3BC95333FD33330A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E0FD64BC6B74C4B1583D380BE1391C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09427DC225408503ECCEC2D707228C42 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BB002AE98E435C66B5C6A8226A1FE2D /* PopMenuBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20A59F95CFF15B6C63B98D98203B7809 /* Pods-PopMenuBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0040CCA60372C9CF468F84FA262BFF7 /* Info.plist */,
+				DCBB7E53F1C5862F99D76CE1B8977400 /* Pods-PopMenuBar_Tests.modulemap */,
+				2995FFEEDF1869504B5CE9054F4BBAA6 /* Pods-PopMenuBar_Tests-acknowledgements.markdown */,
+				BE00CFB65EC730364C755D37B8EB5FA6 /* Pods-PopMenuBar_Tests-acknowledgements.plist */,
+				64E0B1F9B6A39DF3BE57D928ECBE176D /* Pods-PopMenuBar_Tests-dummy.m */,
+				6EB2DE0622758DFE4A99130EED5F4DB8 /* Pods-PopMenuBar_Tests-frameworks.sh */,
+				9EE5A6441331587BEA490F47F6C78EB1 /* Pods-PopMenuBar_Tests-resources.sh */,
+				C43502A73952FE6DC0D00F24520DC6BA /* Pods-PopMenuBar_Tests-umbrella.h */,
+				B6D82220437833840DEF4BEE9E873E89 /* Pods-PopMenuBar_Tests.debug.xcconfig */,
+				C0D5163DA41FC228A865A459D3C9DD98 /* Pods-PopMenuBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-PopMenuBar_Tests";
+			path = "Target Support Files/Pods-PopMenuBar_Tests";
+			sourceTree = "<group>";
+		};
+		3BB002AE98E435C66B5C6A8226A1FE2D /* PopMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				300DAD38E059649BE2BAC3A0F20690CD /* UIView+ZHNDoodleMenuBar.h */,
+				E163DA0BA091EACE99940437267D5826 /* UIView+ZHNDoodleMenuBar.m */,
+				713AD6CFA0ECE67FD26A3F33069F861C /* ZHNDoodleMenuBar.h */,
+				234CEAA5FCE9009BD9EFC7D51222670A /* ZHNDoodleMenuBar.m */,
+				A64FA8998B61882528F7BD3C2C476754 /* ZHNShineButton.h */,
+				25FD487101293F99F45496372F5FE10A /* ZHNShineButton.m */,
+				ACEF4B650288A2F0EA07F11C2A12FD52 /* Support Files */,
+			);
+			name = PopMenuBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				09427DC225408503ECCEC2D707228C42 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8FDEC3651B300853D3523BAC7C3876E0 /* Products */,
+				EC69A8CE0B1066DAC624C246ED5D7C62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E56284F657C7B0541D87C8BACABC5D /* Pods-PopMenuBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E92CB212FC57D00820C96AA52EF5BDEE /* Info.plist */,
+				A2D8656F14C0C9BBA2D46265F32E95B4 /* Pods-PopMenuBar_Example.modulemap */,
+				858CDFE803CF8E565E07E6C40B75F52A /* Pods-PopMenuBar_Example-acknowledgements.markdown */,
+				98FBC31E89579B98224C3FD13757EBC6 /* Pods-PopMenuBar_Example-acknowledgements.plist */,
+				A8829F4C6E56C7680F77CBCCD32D5F6E /* Pods-PopMenuBar_Example-dummy.m */,
+				3D46B6BFC51511F1C26F19C4B0F82C8D /* Pods-PopMenuBar_Example-frameworks.sh */,
+				A860D82FFA92F0575A0E51BCF61ED98E /* Pods-PopMenuBar_Example-resources.sh */,
+				71F7AC0C5D27948F04FEFA1B64A263E5 /* Pods-PopMenuBar_Example-umbrella.h */,
+				B4A14F4622AF58E9DFB5A52F4DFC68CD /* Pods-PopMenuBar_Example.debug.xcconfig */,
+				A516263DFE654C5DC27CD565E561563A /* Pods-PopMenuBar_Example.release.xcconfig */,
+			);
+			name = "Pods-PopMenuBar_Example";
+			path = "Target Support Files/Pods-PopMenuBar_Example";
+			sourceTree = "<group>";
+		};
+		8FDEC3651B300853D3523BAC7C3876E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA435E85BB399E1CB1F607CD01F5F72B /* Pods_PopMenuBar_Example.framework */,
+				28080DFCD7E21AF955ACB0F4F36F9CF1 /* Pods_PopMenuBar_Tests.framework */,
+				AF2A073AB951145CD5B690D0E1058F49 /* PopMenuBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEF4B650288A2F0EA07F11C2A12FD52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C829F6DCD2D2AE52B9EB6A9114B972 /* Info.plist */,
+				DE391D91E84A546610573FADD8247BC6 /* PopMenuBar.modulemap */,
+				C5B1C54C4DF40989491364A552D5C278 /* PopMenuBar.xcconfig */,
+				FFD243D9049B30BF11BD5BA102ADE0F5 /* PopMenuBar-dummy.m */,
+				A53741319A27D5E629F9C93BBCC4FBC3 /* PopMenuBar-prefix.pch */,
+				CA95A321E12AE16B43864B5E05A097F1 /* PopMenuBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PopMenuBar";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC69A8CE0B1066DAC624C246ED5D7C62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E56284F657C7B0541D87C8BACABC5D /* Pods-PopMenuBar_Example */,
+				20A59F95CFF15B6C63B98D98203B7809 /* Pods-PopMenuBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24E480E1ECA45655C776869631573D0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A10D678EBE51950A570428A70FA1B /* Pods-PopMenuBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD422180D5EC3757078A11EB3EA3BE88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1F4252A48D72048B8B796F1B9AADD2 /* Pods-PopMenuBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B767C6C00D2D048062BB2F1474BF07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5A67C62B90F31BF22B7D9CA41D561F /* PopMenuBar-umbrella.h in Headers */,
+				BE83A7F86011CEDB37D2226B90038103 /* UIView+ZHNDoodleMenuBar.h in Headers */,
+				5ECBB8C480A116E83E74FFCDB5813059 /* ZHNDoodleMenuBar.h in Headers */,
+				A994767C01988B075E5AE98E062FFD87 /* ZHNShineButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F1F67D6C003FE41E2E884FD289DEC92 /* Pods-PopMenuBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C9495EB7DC03A4A0D5ED402374DCC7 /* Build configuration list for PBXNativeTarget "Pods-PopMenuBar_Tests" */;
+			buildPhases = (
+				94CF5C2168C9441DF21098D8000BA610 /* Sources */,
+				929DCFD9BE1169A3BC95333FD33330A4 /* Frameworks */,
+				24E480E1ECA45655C776869631573D0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PopMenuBar_Tests";
+			productName = "Pods-PopMenuBar_Tests";
+			productReference = 28080DFCD7E21AF955ACB0F4F36F9CF1 /* Pods_PopMenuBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E84C9D8CB9128D6C585A2AA45600C4A1 /* PopMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A07C6738F6501E8ED2B20AC8F4A08A1 /* Build configuration list for PBXNativeTarget "PopMenuBar" */;
+			buildPhases = (
+				88D9FB13D0587F8FB433E5BB111E5243 /* Sources */,
+				4FD003079962CA6005EF1644405F273C /* Frameworks */,
+				C8B767C6C00D2D048062BB2F1474BF07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopMenuBar;
+			productName = PopMenuBar;
+			productReference = AF2A073AB951145CD5B690D0E1058F49 /* PopMenuBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC1699ECF6B2262AA86C0549ACDA37E3 /* Pods-PopMenuBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73825455B2B0B76C8EB5D2FFDA4F15B8 /* Build configuration list for PBXNativeTarget "Pods-PopMenuBar_Example" */;
+			buildPhases = (
+				C3F60D2F080DCFF1EAB8C1E5411B4974 /* Sources */,
+				56DA999B2846B24B312714BFDBADCC33 /* Frameworks */,
+				AD422180D5EC3757078A11EB3EA3BE88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D192828C47F35A337D1EBB3F38F6C660 /* PBXTargetDependency */,
+			);
+			name = "Pods-PopMenuBar_Example";
+			productName = "Pods-PopMenuBar_Example";
+			productReference = CA435E85BB399E1CB1F607CD01F5F72B /* Pods_PopMenuBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8FDEC3651B300853D3523BAC7C3876E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1699ECF6B2262AA86C0549ACDA37E3 /* Pods-PopMenuBar_Example */,
+				2F1F67D6C003FE41E2E884FD289DEC92 /* Pods-PopMenuBar_Tests */,
+				E84C9D8CB9128D6C585A2AA45600C4A1 /* PopMenuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D9FB13D0587F8FB433E5BB111E5243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB9417CAA6EFC6B723DEC3D61B16D9E /* PopMenuBar-dummy.m in Sources */,
+				631E0AF2F506C69757302238512CFBED /* UIView+ZHNDoodleMenuBar.m in Sources */,
+				F50A62210D53001C87D53147BD8B7266 /* ZHNDoodleMenuBar.m in Sources */,
+				63A0E69E321CFD2D99FC64C4EF4BEDB3 /* ZHNShineButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CF5C2168C9441DF21098D8000BA610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027F3707AEEE856E3E7D35C5E650FC4 /* Pods-PopMenuBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F60D2F080DCFF1EAB8C1E5411B4974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B828EA8C548F624F3EF9849533CFAB16 /* Pods-PopMenuBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D192828C47F35A337D1EBB3F38F6C660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopMenuBar;
+			target = E84C9D8CB9128D6C585A2AA45600C4A1 /* PopMenuBar */;
+			targetProxy = 8A077B8C9804B337433E7D86F88B960C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28DB2D5228C9EFAF4CC40CA13A3B4FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A516263DFE654C5DC27CD565E561563A /* Pods-PopMenuBar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopMenuBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopMenuBar_Example/Pods-PopMenuBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PopMenuBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EAAC8DF9866640E53DC3E4C49ADB33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B1C54C4DF40989491364A552D5C278 /* PopMenuBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopMenuBar/PopMenuBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopMenuBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopMenuBar/PopMenuBar.modulemap";
+				PRODUCT_NAME = PopMenuBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA1A8725ECDBAE91033F76E9135925D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D5163DA41FC228A865A459D3C9DD98 /* Pods-PopMenuBar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopMenuBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopMenuBar_Tests/Pods-PopMenuBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PopMenuBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA56CA03CDA25013748D692CDBE01F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D82220437833840DEF4BEE9E873E89 /* Pods-PopMenuBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopMenuBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopMenuBar_Tests/Pods-PopMenuBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PopMenuBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDD8274D7C3AA563C351E1520B2F3B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B1C54C4DF40989491364A552D5C278 /* PopMenuBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopMenuBar/PopMenuBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopMenuBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopMenuBar/PopMenuBar.modulemap";
+				PRODUCT_NAME = PopMenuBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCBA9798C7CD23CC246D01747F0D5D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A14F4622AF58E9DFB5A52F4DFC68CD /* Pods-PopMenuBar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopMenuBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopMenuBar_Example/Pods-PopMenuBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PopMenuBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A07C6738F6501E8ED2B20AC8F4A08A1 /* Build configuration list for PBXNativeTarget "PopMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAAC8DF9866640E53DC3E4C49ADB33E /* Debug */,
+				EDD8274D7C3AA563C351E1520B2F3B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73825455B2B0B76C8EB5D2FFDA4F15B8 /* Build configuration list for PBXNativeTarget "Pods-PopMenuBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBA9798C7CD23CC246D01747F0D5D6E /* Debug */,
+				28DB2D5228C9EFAF4CC40CA13A3B4FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C9495EB7DC03A4A0D5ED402374DCC7 /* Build configuration list for PBXNativeTarget "Pods-PopMenuBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA56CA03CDA25013748D692CDBE01F40 /* Debug */,
+				AA1A8725ECDBAE91033F76E9135925D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
